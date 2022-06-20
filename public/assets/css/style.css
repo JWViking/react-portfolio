@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 15px;
+    background-color: rgb(169, 169, 169);
+    font-weight: bold;
+}
+
+header span {
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header p {
+    font-size: 1vw;
+    text-align: center;
+}
+
+header p span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    font-size: 1vw;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: space-between;
+    align-content: center;
+    list-style: none;
+}
+
+header nav ul li {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+header nav ul li a {
+   padding: 20px 50px;
+   font-weight: lighter;
+   font-size: 1.5vw;
+}
+
+/* Hero Styles */
+.hero {
+    display: flex;
+    justify-content: start;
+    background-image: url("../images/Panorama_Oppstrynsvatnet_Hjelle_hotell_til_høyre_Norway_2015-05-04.jpeg");
+    background-size: cover;
+    border-top: black solid 4px;
+    background-position: 50% 43%;
+    padding: 40px 65px;
+}
+
+.hero-hello {
+    margin-left: 10%;
+    margin-top: 15%;
+    font-size: 1vw;
+}
+
+.hero img {
+    border: black solid 4px;
+    width: 15%;
+}
+
+/* Work Styles */
+
+.work h3 {
+    background-color: rgb(250, 238, 221);
+    padding: 30px;
+    height: 20px;
+    font-size: 1.75vw;
+    text-align: end;
+    color:rgb(216, 64, 64);
+    font-family: monospace;
+}
+.work-tiles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(115, 124, 124);
+    padding: 20px 5px; 
+}
+
+.work-tiles div {
+    display: flex;
+    width: 17%;
+    height: 23vw;
+    border: black double 8px;
+    border-radius: 30px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+    font-size: 1.5vw;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.work-tiles img {
+    width: 100%;
+    height: 27vw;
+    border-radius: 30px;
+}
+
+/* Center Tile Styling */
+.work-tiles .hike-buddy {
+    height: 23vw;
+    align-self: center;
+    width: 17%;
+    color:rgb(250, 238, 221);
+    text-decoration: none;
+    text-shadow: 0 0 32px black;
+}
+
+.password-generator {
+    background-color: rgba(119, 150, 134);
+}
+
+.run-buddy{
+    background-color: rgb(255, 235, 204);
+    background-image: url("../images/run-buddy.png");
+    text-decoration: none;
+}
+
+.run-buddy a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.hike-buddy{
+    background-image: url("../images/hike-buddy.png");
+    text-decoration: none;
+}
+
+.hike-buddy a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px black;
+}
+
+.wine-n-dine {
+    background-color:rgba(65, 58, 58, .5);
+    background-image: url("../images/WineNDine.png");
+}
+
+.wine-n-dine a {
+    text-decoration: none;
+    color:black;
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px white;
+}
+
+.hqbrains {
+    background-color: rgb(255, 235, 204);
+}
+
+.ww {
+    background-color: rgb(119, 150, 134);
+}
+
+/* About JRW Styles */
+
+.about {
+    background-color: rgb(151, 199, 238);
+    padding: 30px 45px 45px 45px;
+}
+
+.about h3 {
+    font-size: 1.75vw;
+    text-align: end;
+    color:rgb(216, 64, 64);
+    font-family: monospace;
+    margin-bottom: 25px;
+}
+
+.about p {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-size: 1.4vw;
+}
+
+/* Contact Me Styles */
+.contact-me {
+    background-image: url("../images/Panorama_Oppstrynsvatnet_Hjelle_hotell_til_høyre_Norway_2015-05-04.jpeg");
+    background-size: cover;
+    background-position: top;
+    padding: 40px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25vw;
+}
+.contact-me div ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-me div ul li h4 {
+    text-decoration: none;
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(169, 169, 169);
+    line-height: 8;
+    padding: 0px 20px;
+}
+
+/* Media query for smaller devices */
+
+@media screen and (max-width: 900px) {
+    header {
+        justify-content: space-between;
+        flex-direction: column;
+    }   
+}
+
+
+@media screen and (max-width: 768px) {
+    header nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 2.5vw;
+    }
+
+    header nav ul :nth-child(3) {order: 2;}
+
+    .hero img {
+        width: 20%;
+    }
+
+    .hero-hello {
+        font-size: 1.75vw;;
+    }
+
+    .work h3 {
+        font-size: 2.5vw;
+    }
+
+    .work-tiles {
+        display: flex;
+        flex-direction: column;
+    }
+    .work-tiles div {
+        display: flex;
+        width: 80%;
+        height: 10;
+        margin: 0px;
+        font-family: fantasy;
+        font-size: 2.75vw;
+    }
+
+    .work-tiles .hike-buddy {
+        display: flex;
+        width: 80%;
+        height: 10;
+    }
+
+    .about h3 {
+        font-size: 2.5vw;
+    }
+
+    .about div p {
+        font-size: 1.75vw;
+    }
+
+    .contact-me {
+        font-size: 1.75vw;
+    }
+
+    footer {
+        font-size: 1.5vw;
+    }
+    
+
+}
+
+
+@media screen and (max-width: 575) {
+    .about div p {
+        width: 75%;
+        font-size: 2vw;
+    }
+}
