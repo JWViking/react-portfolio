@@ -185,7 +185,8 @@ header nav ul li a {
     background-color: rgb(255, 235, 204);
 }
 
-.ww {
+.weather-view {
+    background-image: url("../images/weather-view.png");
     background-color: rgb(119, 150, 134);
 }
 

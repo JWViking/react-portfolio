@@ -35,6 +35,7 @@ function Contact() {
     function handleSubmit(e) {
         e.preventDefault();
         console.log(formState);
+        window.document.location.href="mailto:"+formState.email+"?subject="+formState.name+"&body="+formState.message
     }
     return (
         <section>

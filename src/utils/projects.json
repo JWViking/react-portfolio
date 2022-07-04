@@ -1,0 +1,46 @@
+[
+    {
+        "title":"Password Craze",
+        "className": "password-generator",
+        "image":"/images/Password-Craze.png",
+        "github":"https://github.com/JWViking/password-craze",
+        "livelink":"https://jwviking.github.io/password-craze/"
+    },
+    {
+        "title":"Run Buddy",
+        "className": "run-buddy",
+        "image":"/images/run-buddy.png",
+        "github":"https://github.com/JWViking/run-buddy",
+        "livelink":"https://jwviking.github.io/run-buddy/"
+    },
+    {
+        "title":"Hike Buddy",
+        "className": "hike-buddy",
+        "image":"/images/hike-buddy.png",
+        "github":"https://github.com/emilypape/hike-buddy",
+        "livelink":"https://still-shore-87425.herokuapp.com/"
+    },
+    {
+        "title":"Wine N' Dine",
+        "className": "wine-n-dine",
+        "image":"/images/WineNDine.png",
+        "github":"https://github.com/JWViking/project1",
+        "livelink":"https://jwviking.github.io/project1/"
+    },
+    {
+        "title":"Weather View",
+        "className": "weather-view",
+        "image":"/images/weather-view.png",
+        "github":"https://github.com/JWViking/project1",
+        "livelink":"https://jwviking.github.io/project1/"
+    },
+    {
+        "title": "Everywhere",
+        "className": "everywhere",
+        "image":"/images/everywhere.png",
+        "github":"https://github.com/emilypape/everywhere",
+        "livelink":"https://stark-harbor-20365.herokuapp.com/"
+    }
+    
+    
+]
