@@ -5,6 +5,7 @@
 
 body {
     color: black;
+    background-color:rgb(169, 169, 169) ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -52,6 +53,11 @@ header nav ul {
     justify-content: space-between;
     align-content: center;
     list-style: none;
+}
+
+.jrw {
+    position: relative;
+    left:1.5%;
 }
 
 header nav ul li {
@@ -229,6 +235,10 @@ footer {
         justify-content: center;
     }
 
+    .jrw {
+        margin-right: 80px;
+    }
+
     header nav ul li a {
         font-size: 2.5vw;
     }
@@ -291,6 +301,12 @@ footer {
 
 }
 
+@media screen and (max-width: 681px) {
+    header nav ul li a {
+        padding: 20px 45px;
+    }
+}
+
 @media screen and (max-width: 660px) {
     header nav ul li a {
         padding: 20px 50px;
@@ -302,7 +318,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 606px) {
+@media screen and (max-width: 627px) {
     header nav ul li a {
         padding: 20px 35px;
         font-weight: lighter;
@@ -311,11 +327,11 @@ footer {
 }
 
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 532px) {
     header nav ul li a {
-        padding: 20px 25px;
+        padding: 20px 20px;
         font-weight: lighter;
-        font-size: 4vw;
+        font-size: 3vw;
     }
 
     .about div p {
@@ -353,6 +369,9 @@ footer {
         font-weight: lighter;
         font-size: 2.75vw;
     }
+    .jrw {
+        margin-right: 70px;
+    }
 }
 
 @media screen and (max-width: 386px) {
@@ -360,5 +379,8 @@ footer {
         padding: 20px 20px;
         font-weight: lighter;
         font-size: 2.75vw;
+    }
+    .jrw {
+        margin-right: 60px;
     }
 }
