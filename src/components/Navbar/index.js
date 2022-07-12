@@ -20,7 +20,7 @@ function Navbar({ currentPage, handlePageChange }) {
                                 className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
                             >About</a>
                         </li>
-                        <li>
+                        <li className="jrw">
                             <div><span>JRW<img className="helmet" src="https://img.icons8.com/metro/26/000000/viking-helmet.png" /></span>
                                 <p><span>Developer Portfolio</span></p>
                             </div>
