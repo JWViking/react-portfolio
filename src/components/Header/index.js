@@ -1,10 +1,10 @@
 function Header() {
     return (
-        <section class="hero">
-            <img class="hero-headshot" src="assets/images/JRWHeadshot.jpg" alt="A photo of full stack web developer Juliana Wilcox smiling hello." />
-            <div class="hero-hello">
-                <h1 class="who">Juliana Wilcox</h1>
-                <h2 class="what">Full Stack <br />Web Developer</h2>
+        <section className="hero">
+            <img className="hero-headshot" src="assets/images/JRWHeadshot.jpg" alt="A photo of full stack web developer Juliana Wilcox smiling hello." />
+            <div className="hero-hello">
+                <h1 className="who">Juliana Wilcox</h1>
+                <h2 className="what">Full Stack <br />Web Developer</h2>
             </div>
         </section>
     )

@@ -1,9 +1,12 @@
 .gitHub {
     position: relative;
-    top: 15%;
+    top: 40%;
     left: 8%;
+    color: white;
 }
 
-.liveLink {
-
+.white {
+    position: relative;
+    top: 40%;
+    color: white;
 }

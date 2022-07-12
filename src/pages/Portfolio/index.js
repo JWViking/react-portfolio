@@ -6,11 +6,15 @@ function Portfolio() {
     return (
         <>
             <section id="work" className="work">
-                <h3>Under Construction - Work Examples</h3>
+                <h3>Work Examples</h3>
                 <article className="work-tiles">
-                    {projects.map(project => {
+                    {projects.map((project, i) => {
                         return (
-                            <Cards title={project.title} className={project.className} github={project.github} livelink={project.livelink}/>
+                            <Cards key={i}image={project.image} 
+                            // title={project.title} 
+                            className={project.className} 
+                            github={project.github} 
+                            livelink={project.livelink}/>
                         )
                     })}
                 </article>
